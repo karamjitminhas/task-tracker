@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Task Tracker ✅
 
-## Getting Started
+A simple task-tracking web application built with:
 
-First, run the development server:
+- **Next.js App Router**
+- **Firebase Firestore & Auth (GitHub login)**
+- **Tailwind CSS**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔑 Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- Sign in with GitHub
+- Add, edit, and delete tasks
+- Assign due dates
+- Click a task to mark it as completed
+- Responsive UI with dark theme and background
+- Clean layout with custom logo
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🧠 How to Use
 
-To learn more about Next.js, take a look at the following resources:
+1. Click **Sign in** (top left) and log in with GitHub
+2. Enter a task and an optional due date
+3. Click **Add Task**
+4. ✅ **Click on any task to toggle it as complete/incomplete**
+5. Use **Edit** to rename or **Delete** to remove a task
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠 Tech Stack
 
-## Deploy on Vercel
+| Technology | Purpose              |
+|------------|----------------------|
+| Next.js    | App structure (App Router) |
+| Firebase   | Auth + Firestore DB  |
+| Tailwind   | Styling (dark mode)  |
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🚀 Deployment
+
+Deployed via [Vercel](https://vercel.com), with Firebase backend for authentication and task storage.
