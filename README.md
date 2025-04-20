@@ -42,4 +42,3 @@ A simple task-tracking web application built with:
 
 ## 🚀 Deployment
 
-Deployed via [Vercel](https://vercel.com), with Firebase backend for authentication and task storage.
